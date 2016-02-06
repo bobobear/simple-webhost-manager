@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================================
+配置文件：用户配置文件
+文件格式：XML Config
+                      http://www.fcsys.us
+======================================= -->
+<server-users>
+    <usertotal>1</usertotal>
+    <user>
+        <userid>1</userid>
+        <username>example</username>
+        <password>123456</password>
+        <domain>www.example.com</domain>
+        <database>example_mysql</database>
+        <wwwroot>C:\wwwroot\example</wwwroot>
+    </user>
+</server-users>

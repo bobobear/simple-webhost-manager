@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================================
+配置文件：服务器环境配置文件
+文件格式：XML Config
+                      http://www.fcsys.us
+======================================= -->
+<server-config>
+    <path>  <!-- 应用程序路径 -->
+        <nginx>C:\Windows\nginx</nginx>
+        <php>C:\Windows\php</php>
+        <mysql>C:\Windows\MySQL</mysql>
+        <wwwroot>D:\wwwroot</wwwroot>
+        <filezilla>C:\Program Files\FileZilla Server</filezilla>
+    </path>
+    <service>
+        <nginx>WebService</nginx>
+        <mysql>MySQL</mysql>
+        <filezilla>FileZilla Server</filezilla>
+    </service>
+    <mysqluser>
+        <server>localhost</server>
+        <port>3306</port>
+        <user>root</user>
+        <password>123456</password>
+    </mysqluser>
+</server-config>
